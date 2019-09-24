@@ -1,31 +1,31 @@
 console.log('worked');
-// simpleCasheback - 1%
-// increasedСashback - 5%
-// specialCashback - 30%
+// simple - 1%
+// increased - 5%
+// special - 30%
 // but cashback should not exceed 3000 rubles
-const purchaseAmount = 5000;
+const amount = 250000;
 
-let simpleCasheback = 0;
-    if (purchaseAmount > 300000){
+let simple = 0;
+    if (amount > 300000){
         simpleCashebac = 3000;
     } else {
-        simpleCasheback = purchaseAmount * 0.01;
+        simple = amount * 0.01;
     }
 
-    let increasedСashback = 0;
-    if (purchaseAmount > 60000) {
-        increasedСashback = 3000;
+    let increased = 0;
+    if (amount > 60000) {
+        increased = 3000;
     } else {
-        increasedСashback = purchaseAmount * 0.05;
+        increased = amount * 0.05;
     }
 
 let specialСashback = 0;
-    if (purchaseAmount > 10000){
-        specialCashback = 3000;
+    if (amount > 10000){
+        special = 3000;
     } else {
-        specialCashback = purchaseAmount * 0.3;
+        special = amount * 0.3;
     }
 
-console.log(simpleCasheback);
-console.log(increasedСashback);
-console.log(specialCashback);
+console.log(simple);
+console.log(increased);
+console.log(special);
